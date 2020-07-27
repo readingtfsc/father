@@ -5,7 +5,7 @@
 
 ## git subtree的主要命令有：
 
-  git subtree add   --prefix=<prefix> <commit>
+  `git subtree add   --prefix=<prefix> <commit>
   
   git subtree add   --prefix=<prefix> <repository> <ref>
   
@@ -15,7 +15,7 @@
   
   git subtree merge --prefix=<prefix> <commit>
   
-  git subtree split --prefix=<prefix> [OPTIONS] [<commit>]
+  git subtree split --prefix=<prefix> [OPTIONS] [<commit>]`
   
   
  ### 在父仓库中新增子仓库
@@ -40,11 +40,11 @@ git remote add -f son https://github.com/readingtfsc/son.git
 
 然后可以这样来使用git subtree命令：
 
-git subtree add --prefix=sub/son son master --squash
+`git subtree add --prefix=sub/son son master --squash
 
 git subtree pull --prefix=sub/son son master --squash
 
-git subtree push --prefix=sub/son son master
+git subtree push --prefix=sub/son son master`
 
 
 
