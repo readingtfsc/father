@@ -5,9 +5,9 @@
 
 ## git subtree的主要命令有：
 
-git subtree add   --prefix=<prefix> <commit>
-git subtree add   --prefix=<prefix> <repository> <ref>
-git subtree pull  --prefix=<prefix> <repository> <ref>
+#### git subtree add   --prefix=<prefix> <commit>
+#### git subtree add   --prefix=<prefix> <repository> <ref>
+#### git subtree pull  --prefix=<prefix> <repository> <ref>
 git subtree push  --prefix=<prefix> <repository> <ref>
 git subtree merge --prefix=<prefix> <commit>
 git subtree split --prefix=<prefix> [OPTIONS] [<commit>]
